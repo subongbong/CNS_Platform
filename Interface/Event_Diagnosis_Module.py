@@ -16,7 +16,7 @@ class sub_event_window(QDialog):
             self.auto_mem = auto_mem
             self.strage_mem = strage_mem
         else:
-            print('TEST_interface')\
+            print('TEST_interface')
 
         self.init_UI()
         self.show()
