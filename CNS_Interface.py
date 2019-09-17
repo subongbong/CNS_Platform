@@ -55,6 +55,7 @@ class MyForm(QDialog):
             self.mem = mem[0]
             self.Auto_mem = mem[-2]
             self.strategy_selection_mem = mem[1]
+            self.TSMS_mem = mem[2]
 
         self.color_setting()
 
@@ -131,7 +132,7 @@ class MyForm(QDialog):
 # ======================================================================================================================
 # connecting popup function of tech spec monitoring  module
     def call_POP_TSMS(self):
-        self.pop_TSMS = POP_TSMS(self.mem, self.Auto_mem, self.strategy_selection_mem)
+        self.pop_TSMS = POP_TSMS(self.mem, self.TSMS_mem, self.strategy_selection_mem)
 
 # ======================= Strategy Popup===============================
 # 추후 삭제

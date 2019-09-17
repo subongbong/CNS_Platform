@@ -33,7 +33,7 @@ class TSMS_module(multiprocessing.Process):
             self.Monitoring()
             self.update_timmer()
             self.action_monitoring()
-            print(self.trig_mem)
+            # print(self.trig_mem)
 
 
     def Calculator_SDM(self):
